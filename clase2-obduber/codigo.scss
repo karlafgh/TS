@@ -1,0 +1,25 @@
+
+$rojo:red;
+$azul:blue;
+$verde:green;
+$amarillo:yellow;
+
+$color:(
+    rojo:$rojo,
+    azul:$azul,
+    verde:$verde,
+    amarillo:$amarillo
+)
+
+@each $color,$color_v in ($rojo,$azul,$verde,$amarillo)  {
+    
+}
+
+$icons: ("eye": "\f112", "start": "\f12e", "stop": "\f12f");
+@each $name, $glyph in $icons {
+    .icon-#{$name}:before {
+      display: inline-block;
+      font-family: "Icon Font";
+      content: $glyph;
+    }
+  }
