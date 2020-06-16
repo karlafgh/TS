@@ -1,0 +1,6 @@
+Realice un método para poder dibujar las figuras, recibiendo por parametro el tipo de figura que se hara. Es por ellohice el uso de un 
+switch en el metodo. Cabe destacar que tiene algunas limitaciones en cuanto a los valores del pentagono, triangulo, etc  ya que les agregué 
+algunas expresiones matemáticas.
+
+Los parametros actuales no son tan especificos ya que como es una funcion que abarca bastante y no quise llenarla de muchos parametros 
+considerando que a algunas figuras no les hacia falta tantos. 
