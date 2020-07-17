@@ -30,7 +30,7 @@ class Train{
 
             case "texto":
                 contexto.fillStyle = this.color
-                contexto.font = w+"em sans-serif"
+                contexto.font = 15+"em sans-serif"
                 contexto.fillText(this.name, x, y)
                 break;
 
@@ -206,3 +206,30 @@ train1.pintar("octagono", 300, 500, 200, 600, "#f7d8c3");
 
 // texto
 train1.pintar("texto", 580, 80, 3, 0, "lightblue");
+
+contexto_.moveTo(this.x,this.y);
+        contexto_.lineTo();
+        contexto_.lineTo();
+        contexto_.stroke();
+        /* 2da punta */
+        contexto_.moveTo(this.x,this.y);
+        contexto_.lineTo();
+        contexto_.lineTo();
+        contexto_.stroke();
+        /* 3era punta */
+        contexto_.moveTo(this.x,this.y);
+        contexto_.lineTo();
+        contexto_.lineTo();
+        contexto_.stroke();
+        /* 4ta punta */
+        contexto_.moveTo(this.x,this.y);
+        contexto_.lineTo();
+        contexto_.lineTo();
+        contexto_.stroke();
+        /* 5ta punta */
+        contexto_.moveTo(this.x,this.y);
+        contexto_.lineTo();
+        contexto_.lineTo();
+        contexto_.stroke();
+        contexto_.closePath();
+        contexto_.fill();
